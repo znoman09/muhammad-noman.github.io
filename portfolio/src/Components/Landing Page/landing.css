@@ -1,0 +1,105 @@
+.main-div{
+    width: 100%;
+}
+
+.landing{
+    width: 100%;
+    margin-top: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.l-name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.l-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.l-name>:nth-child(2){
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 5rem;
+}
+
+.l-name>:nth-child(3){
+    font-size: 4rem;
+    color: gray;
+    margin-top: -3rem;
+    padding: 5rem;
+}
+
+.l-button{
+    display: flex;
+    font-size: 20px;
+    padding: 5px 9px 5px 9px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.l-icons{
+    margin-top: -1rem;
+    display: flex;
+    margin-left: 20%;
+    gap: 10rem;
+    transform: scale(.5);
+}
+
+
+.noman{
+    display: flex;
+    margin-top: -3rem;
+    margin-left: 45rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    
+    .l-left>*{
+        padding: 0.5rem 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-name>:nth-child(1){
+        color: var(--black);
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    
+    .l-name>:nth-child(2){
+        font-weight: bold;
+        color: var(--orange);
+        font-size: 3.5rem;
+    }
+    
+    .l-name>:nth-child(3){
+        font-size: 2rem;
+        color: gray;
+        text-align: justify;
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+    }
+
+    .l-icons{
+        margin-top: -1rem;
+        display: flex;
+        margin-left: -2rem;
+        gap: 10rem;
+        transform: scale(.5);
+    }
+}
+

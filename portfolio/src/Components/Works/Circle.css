@@ -1,0 +1,15 @@
+.t-circle{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.heading>:nth-child(1){
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange);
+}

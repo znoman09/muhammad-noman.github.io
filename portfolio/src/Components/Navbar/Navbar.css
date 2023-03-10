@@ -1,0 +1,87 @@
+.n-wrapper{
+    padding: 0rem 3.5rem 0rem 3.50rem;
+    height: 10vh;
+    display: flex;
+    border: 0px solid;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: bisque;
+}
+
+.n-left{ 
+    display: flex;
+    flex: .7;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.n-name{
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+}
+
+.n-list{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-left: -15rem;
+}
+
+.n-list-li-style{
+    display: flex;
+    flex: 1;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.n-list-li-style:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.n-button{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .n-list{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1194px) {
+    .n-name{
+        font-size: 2rem;
+    }
+
+    .n-list-li-style{
+        font-size: 2rem;
+        margin-left: -1rem;
+    }
+
+    .n-button{
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+
+}

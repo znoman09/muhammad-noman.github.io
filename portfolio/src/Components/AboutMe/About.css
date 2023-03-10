@@ -1,0 +1,118 @@
+.about{
+    padding: 0rem 3.5rem 0rem 3.50rem;
+    display: flex;
+}
+
+.a-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+
+.l-intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.l-intro>:nth-child(1){
+    color: var(--orange);
+    font-size: 5rem;
+}
+
+.l-intro>:nth-child(2){
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.a-exp{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-exp>:nth-child(1){
+    color: var(--orange);
+    font-size: 3rem;
+}
+
+.a-exp>:nth-child(2){
+    margin-left: 4rem;
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.a-exp>:nth-child(3){
+    margin-left: 4rem;
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.a-exp>:nth-child(4){
+    margin-left: 4rem;
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+.a-qual{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-qual>:nth-child(1){
+    color: var(--orange);
+    font-size: 3rem;
+}
+
+.a-qual>:nth-child(2){
+    margin-left: 4rem;
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.a-qual>:nth-child(3){
+    margin-left: 4rem;
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.a-qual>:nth-child(4){
+    margin-left: 4rem;
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+.a-right{
+    display: flex;
+    flex: 1;
+}
+
+.image{
+    width: 469px;
+    height: 512px;
+    
+    background-image: url('S:\Portfolio\portfolio\src\img\noman sidez.jpg');
+   
+}
+
+@media screen and (max-width: 1440px) {
+    .image{
+        transform: scale(.8);
+        margin-left: 10%;
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about{
+        margin-top: 9rem;  
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image{
+        transform: scale(.5);
+        background-image: url('S:\Portfolio\portfolio\src\img\noman sidez.jpg');
+        margin-top: -13rem;
+    }
+}

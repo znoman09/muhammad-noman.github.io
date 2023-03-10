@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.box{
+  background-color: black;
+  height: 100%;
+}
+
+@font-face {
+  font-family: Gumela;
+  src: url('../src/fonts/Gumela.ttf')
+}
+*{
+  font-family: 'Gumela';
+  font-size: 8px;
+}

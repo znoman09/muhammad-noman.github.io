@@ -1,0 +1,8 @@
+.t-box{
+    display: flex;
+    height: 28rem;
+    width: 20rem;
+    box-shadow: var(--boxShadow);
+    
+    
+}
