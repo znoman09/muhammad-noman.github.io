@@ -1,4 +1,5 @@
 {
+  "homepage": "https://znoman09.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs": "^4.0.1",
     "framer-motion": "^8.5.4",
+    "git": "^0.1.5",
     "react": "^18.2.0",
     "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
