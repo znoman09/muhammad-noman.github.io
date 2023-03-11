@@ -124,7 +124,7 @@
     .w-right>:nth-child(1){
         display: flex;
         margin-top: -10rem;
-        margin-left: -20rem;
+        margin-left: 0rem;
     }
     
     .w-right>:nth-child(2){
